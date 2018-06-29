@@ -1,0 +1,35 @@
+PODS:
+  - AWSAPIGateway (2.6.21):
+    - AWSCore (= 2.6.21)
+  - AWSAuthCore (2.6.21):
+    - AWSCore (= 2.6.21)
+  - AWSCore (2.6.21)
+  - AWSLambda (2.6.21):
+    - AWSCore (= 2.6.21)
+  - AWSMobileClient (2.6.21):
+    - AWSAuthCore (= 2.6.21)
+
+DEPENDENCIES:
+  - AWSAPIGateway (~> 2.6.13)
+  - AWSAuthCore (~> 2.6.13)
+  - AWSLambda (~> 2.6.13)
+  - AWSMobileClient (~> 2.6.13)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSAPIGateway
+    - AWSAuthCore
+    - AWSCore
+    - AWSLambda
+    - AWSMobileClient
+
+SPEC CHECKSUMS:
+  AWSAPIGateway: 11bde0b08ef108be05c043eef11ab1b9084fd731
+  AWSAuthCore: f912e4f032092818ee21860a44386c485329a92b
+  AWSCore: a1ff1d32ea7af235fe64be301c204b34cb1f9f83
+  AWSLambda: 1659b7685f0da63dba91cd35d8635c2882fc4f5f
+  AWSMobileClient: f61ef1ca52cf561a3831f4c29b8bfc43234db8f3
+
+PODFILE CHECKSUM: 880f55ecc128d3e795c3965f975c1504e9076cab
+
+COCOAPODS: 1.5.3

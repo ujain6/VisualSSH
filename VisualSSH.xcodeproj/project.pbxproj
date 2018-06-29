@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A587E8C833902E76912D01AF /* Pods_VisualSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288AA0C1497F15B7B8B53C83 /* Pods_VisualSSH.framework */; };
+		AA1B6C9D20D6FAA0001E5386 /* TESTAPIFinalClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B6C9A20D6FAA0001E5386 /* TESTAPIFinalClient.swift */; };
+		AA1B6C9E20D6FAA0001E5386 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B6C9C20D6FAA0001E5386 /* Empty.swift */; };
+		AA7022F520D4208300026942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7022F420D4208300026942 /* AppDelegate.swift */; };
+		AA7022F720D4208300026942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7022F620D4208300026942 /* ViewController.swift */; };
+		AA7022FA20D4208300026942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7022F820D4208300026942 /* Main.storyboard */; };
+		AA7022FC20D4208600026942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7022FB20D4208600026942 /* Assets.xcassets */; };
+		AA7022FF20D4208600026942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7022FD20D4208600026942 /* LaunchScreen.storyboard */; };
+		AA70230A20D4208600026942 /* VisualSSHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA70230920D4208600026942 /* VisualSSHTests.swift */; };
+		AAAB78A720D60B4600718C33 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AAAB78A620D60B4500718C33 /* awsconfiguration.json */; };
+		AAB3058320DD546200AF364D /* FileExplorerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3058220DD546200AF364D /* FileExplorerTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA70230620D4208600026942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7022E920D4208300026942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7022F020D4208300026942;
+			remoteInfo = VisualSSH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288AA0C1497F15B7B8B53C83 /* Pods_VisualSSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisualSSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1B6C9920D6FA9F001E5386 /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bridging_Header.h; path = "../../../../Downloads/testAPI/generated-src/Bridging_Header.h"; sourceTree = "<group>"; };
+		AA1B6C9A20D6FAA0001E5386 /* TESTAPIFinalClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TESTAPIFinalClient.swift; sourceTree = "<group>"; };
+		AA1B6C9B20D6FAA0001E5386 /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSApiGatewayBridge.h; sourceTree = "<group>"; };
+		AA1B6C9C20D6FAA0001E5386 /* Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		AA7022F120D4208300026942 /* VisualSSH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualSSH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7022F420D4208300026942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA7022F620D4208300026942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA7022F920D4208300026942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7022FB20D4208600026942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7022FE20D4208600026942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA70230020D4208600026942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA70230520D4208600026942 /* VisualSSHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualSSHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA70230920D4208600026942 /* VisualSSHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualSSHTests.swift; sourceTree = "<group>"; };
+		AA70230B20D4208600026942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAAB78A620D60B4500718C33 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		AAB3058220DD546200AF364D /* FileExplorerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExplorerTableViewController.swift; sourceTree = "<group>"; };
+		C9B6D304A59653B0310342AD /* Pods-VisualSSH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualSSH.release.xcconfig"; path = "Pods/Target Support Files/Pods-VisualSSH/Pods-VisualSSH.release.xcconfig"; sourceTree = "<group>"; };
+		DDC4EA496C82A993CA3C7DE6 /* Pods-VisualSSH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualSSH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VisualSSH/Pods-VisualSSH.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7022EE20D4208300026942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A587E8C833902E76912D01AF /* Pods_VisualSSH.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA70230220D4208600026942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991151B35D5E13A60EB7E40B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				288AA0C1497F15B7B8B53C83 /* Pods_VisualSSH.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA7022E820D4208300026942 = {
+			isa = PBXGroup;
+			children = (
+				AA7022F320D4208300026942 /* VisualSSH */,
+				AA70230820D4208600026942 /* VisualSSHTests */,
+				AA7022F220D4208300026942 /* Products */,
+				B8BE75C45564277A6E232831 /* Pods */,
+				991151B35D5E13A60EB7E40B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7022F220D4208300026942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7022F120D4208300026942 /* VisualSSH.app */,
+				AA70230520D4208600026942 /* VisualSSHTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7022F320D4208300026942 /* VisualSSH */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB78A620D60B4500718C33 /* awsconfiguration.json */,
+				AA7022F420D4208300026942 /* AppDelegate.swift */,
+				AA7022F620D4208300026942 /* ViewController.swift */,
+				AAB3058220DD546200AF364D /* FileExplorerTableViewController.swift */,
+				AA7022F820D4208300026942 /* Main.storyboard */,
+				AA7022FB20D4208600026942 /* Assets.xcassets */,
+				AA7022FD20D4208600026942 /* LaunchScreen.storyboard */,
+				AA70230020D4208600026942 /* Info.plist */,
+				AA1B6C9B20D6FAA0001E5386 /* AWSApiGatewayBridge.h */,
+				AA1B6C9920D6FA9F001E5386 /* Bridging_Header.h */,
+				AA1B6C9C20D6FAA0001E5386 /* Empty.swift */,
+				AA1B6C9A20D6FAA0001E5386 /* TESTAPIFinalClient.swift */,
+			);
+			path = VisualSSH;
+			sourceTree = "<group>";
+		};
+		AA70230820D4208600026942 /* VisualSSHTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA70230920D4208600026942 /* VisualSSHTests.swift */,
+				AA70230B20D4208600026942 /* Info.plist */,
+			);
+			path = VisualSSHTests;
+			sourceTree = "<group>";
+		};
+		B8BE75C45564277A6E232831 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDC4EA496C82A993CA3C7DE6 /* Pods-VisualSSH.debug.xcconfig */,
+				C9B6D304A59653B0310342AD /* Pods-VisualSSH.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7022F020D4208300026942 /* VisualSSH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA70230E20D4208600026942 /* Build configuration list for PBXNativeTarget "VisualSSH" */;
+			buildPhases = (
+				AC951B6728A5F3675DF7A9DB /* [CP] Check Pods Manifest.lock */,
+				AA7022ED20D4208300026942 /* Sources */,
+				AA7022EE20D4208300026942 /* Frameworks */,
+				AA7022EF20D4208300026942 /* Resources */,
+				1EDEE0EDD9BDA59A1F5351F1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualSSH;
+			productName = VisualSSH;
+			productReference = AA7022F120D4208300026942 /* VisualSSH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA70230420D4208600026942 /* VisualSSHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA70231120D4208600026942 /* Build configuration list for PBXNativeTarget "VisualSSHTests" */;
+			buildPhases = (
+				AA70230120D4208600026942 /* Sources */,
+				AA70230220D4208600026942 /* Frameworks */,
+				AA70230320D4208600026942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA70230720D4208600026942 /* PBXTargetDependency */,
+			);
+			name = VisualSSHTests;
+			productName = VisualSSHTests;
+			productReference = AA70230520D4208600026942 /* VisualSSHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7022E920D4208300026942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Utkarsh Jain";
+				TargetAttributes = {
+					AA7022F020D4208300026942 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AA70230420D4208600026942 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AA7022F020D4208300026942;
+					};
+				};
+			};
+			buildConfigurationList = AA7022EC20D4208300026942 /* Build configuration list for PBXProject "VisualSSH" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7022E820D4208300026942;
+			productRefGroup = AA7022F220D4208300026942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7022F020D4208300026942 /* VisualSSH */,
+				AA70230420D4208600026942 /* VisualSSHTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7022EF20D4208300026942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAB78A720D60B4600718C33 /* awsconfiguration.json in Resources */,
+				AA7022FF20D4208600026942 /* LaunchScreen.storyboard in Resources */,
+				AA7022FC20D4208600026942 /* Assets.xcassets in Resources */,
+				AA7022FA20D4208300026942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA70230320D4208600026942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EDEE0EDD9BDA59A1F5351F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VisualSSH/Pods-VisualSSH-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VisualSSH/Pods-VisualSSH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC951B6728A5F3675DF7A9DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisualSSH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7022ED20D4208300026942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1B6C9D20D6FAA0001E5386 /* TESTAPIFinalClient.swift in Sources */,
+				AA1B6C9E20D6FAA0001E5386 /* Empty.swift in Sources */,
+				AAB3058320DD546200AF364D /* FileExplorerTableViewController.swift in Sources */,
+				AA7022F720D4208300026942 /* ViewController.swift in Sources */,
+				AA7022F520D4208300026942 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA70230120D4208600026942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA70230A20D4208600026942 /* VisualSSHTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA70230720D4208600026942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7022F020D4208300026942 /* VisualSSH */;
+			targetProxy = AA70230620D4208600026942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA7022F820D4208300026942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7022F920D4208300026942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7022FD20D4208600026942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7022FE20D4208600026942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA70230C20D4208600026942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/utkarsh/Documents/iOS/VisualSSH/VisualSSH/Bridging_Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA70230D20D4208600026942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/utkarsh/Documents/iOS/VisualSSH/VisualSSH/Bridging_Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA70230F20D4208600026942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC4EA496C82A993CA3C7DE6 /* Pods-VisualSSH.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualSSH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VisualSSH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA70231020D4208600026942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B6D304A59653B0310342AD /* Pods-VisualSSH.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualSSH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VisualSSH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA70231220D4208600026942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualSSHTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VisualSSHTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualSSH.app/VisualSSH";
+			};
+			name = Debug;
+		};
+		AA70231320D4208600026942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisualSSHTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VisualSSHTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualSSH.app/VisualSSH";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7022EC20D4208300026942 /* Build configuration list for PBXProject "VisualSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA70230C20D4208600026942 /* Debug */,
+				AA70230D20D4208600026942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA70230E20D4208600026942 /* Build configuration list for PBXNativeTarget "VisualSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA70230F20D4208600026942 /* Debug */,
+				AA70231020D4208600026942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA70231120D4208600026942 /* Build configuration list for PBXNativeTarget "VisualSSHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA70231220D4208600026942 /* Debug */,
+				AA70231320D4208600026942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7022E920D4208300026942 /* Project object */;
+}
